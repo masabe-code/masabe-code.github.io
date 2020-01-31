@@ -1,0 +1,224 @@
+@charset "UTF-8";
+  
+/* ********************************************
+// --- リセット ---
+// ※ブラウザのデフォルトCSSをリセット
+// ***************************************** */
+  
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 16px;
+}
+body {
+  font-family: Verdana, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+header, footer, nav, menu, article, aside, section, details, figcaption, figure{
+  display: block;
+}
+ul, ol {
+  list-style: none;
+}
+table {
+  border-collapse: collapse;
+}
+img {
+  vertical-align: bottom;
+}
+a img {
+  border: none;
+}
+strong {
+  font-weight: normal;
+}
+i{
+  font-style: normal;
+}
+
+.clear {
+    clear:both;
+}
+
+.container {
+    max-width:1170px;
+    width:100%;
+    margin:0 auto;
+}
+
+header {
+    height:65px;
+    background-color:#000;
+    color:#fff;
+}
+
+.header-left {
+    float:left;
+    font-size:20px;
+    padding:20px 0;
+}
+
+
+.header-right {
+    float:right;
+}
+
+.header-right a {
+    display:inline-block;
+    line-height: 65px;
+    padding:0 15px;
+    background-color:rgba(255,255,255,0.7);
+    color:#fff;
+}
+
+.header-right a:hover{
+        background-color:rgba(255,255,255,0.5);
+}
+
+.main-wrapper {
+    background-image:url("./image/topimage3.jpg");
+    background-position:bottom;
+    background-size:cover;
+    text-align:center;
+    padding:60px 0 ;
+}
+
+
+
+.heading h1 {
+    font-size:40px;
+    letter-spacing: 5px;
+    text-shadow:5px 5px 1px #999999;
+}
+
+.heading span {
+    color:red;
+}
+
+.btn {
+    padding:10px 15px;
+    border-radius:4px;
+    color:white;
+    text-decoration: none;
+}
+
+.btn:hover {
+    color:yellow;
+}
+
+.btn-wrapper {
+    margin-top:50px;
+}
+
+.btn-wrapper p{
+    margin:15px 0 20px 0;
+}
+
+.login {
+    background-color:#000055;
+}
+
+.facebook {
+    margin-right:5px;
+    background-color: #0000CC;
+}
+
+.twitter {
+    background-color:#2C7CFF;
+}
+
+.fa {
+    margin-right:5px;
+}
+
+.characters {
+    text-align:center;
+    padding:40px;
+    background-image:url(./image/characterbg2.jpg);
+    background-size:cover;
+    background-position: bottom;
+}
+
+.character-icon img {
+    width:280px;
+    height:280px;
+}
+
+.character {
+    float:left;
+    height:520px;
+    width:25%;
+    background-color: rgba(255,255,255,0.8)
+}
+
+.character-icon p {
+    font-weight:bold;
+}
+
+.text-contents {
+    width:80%;
+    display:inline-block
+}
+
+.skill-wrapper{
+    text-align:center;
+    padding:30px 0;
+    background-image:url(./image/skillbg.jpeg);
+}
+
+.heading h2 {
+    margin-bottom:30px;
+    color:#f3f3f3;
+}
+
+.learn-skill a{
+    display:inline-block;
+    width:33%;
+    border-radius:4px;
+    background-color:white;
+    border:1px dotted #000;
+    padding:30px 5px;
+    margin-bottom:5px;
+    text-decoration: none;
+    font-size:20px;
+    color:#222222;
+}
+
+.html:hover {
+    background-color: #00CC00;
+    color:white;
+}
+
+.javascript:hover {
+    background-color: #CC0000;
+    color:white;
+}
+.jquery:hover {
+    background-color: #9400D3;
+    color:white;
+}
+.ruby:hover {
+    background-color: #5507FF;
+    color:white;
+}
+.ror:hover {
+    background-color:#008080;
+    color:white;
+}
+.php:hover {
+    background-color: #111111	;
+    color:white;
+}
+
+footer {
+    height:65px;
+    background-color:#000;
+}
+
+.footer-logo {
+    color:#fff;
+    font-size:20px;
+    padding:20px 0;
+}

@@ -28,6 +28,10 @@
         height:100%;
     }
     
+    .skill-wrapper h2{
+        font-size:18px;
+    }
+    
     footer {
         text-align:center;
     }

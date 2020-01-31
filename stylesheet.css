@@ -78,7 +78,7 @@ header {
 }
 
 .main-wrapper {
-    background-image:url("./image/topimage3.jpg");
+    background-image:url("topimage3.jpg");
     background-position:bottom;
     background-size:cover;
     text-align:center;

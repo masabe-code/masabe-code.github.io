@@ -136,7 +136,7 @@ header {
 .characters {
     text-align:center;
     padding:40px;
-    background-image:url(./image/characterbg2.jpg);
+    background-image:url(characterbg2.jpg);
     background-size:cover;
     background-position: bottom;
 }
@@ -165,7 +165,7 @@ header {
 .skill-wrapper{
     text-align:center;
     padding:30px 0;
-    background-image:url(./image/skillbg.jpeg);
+    background-image:url(skillbg.jpeg);
 }
 
 .heading h2 {
